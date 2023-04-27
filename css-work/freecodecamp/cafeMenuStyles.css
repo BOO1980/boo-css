@@ -1,9 +1,11 @@
 h1, p, h2{
     text-align: center
 }
-body{
-    /* background-color: burlywood; */
-}
+
+/*body{
+}*/
+
 div{
+    background-color: burlywood;
     width:300px;
 }
