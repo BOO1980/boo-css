@@ -22,6 +22,8 @@ https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by
 https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-20 27/04/2023
 https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-21 27/04/2023
 https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-22 27/04/2023
+https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-23 27/04/2023
+https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-24 27/04/2023
 
 ##RESOURCES
 
