@@ -5,7 +5,7 @@ h1, p, h2{
 /*body{
 }*/
 
-div{
+.menu{
     background-color: burlywood;
     width:80%;
     margin-left: auto;
