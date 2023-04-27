@@ -2,8 +2,9 @@ h1, p, h2{
     text-align: center
 }
 
-/*body{
-}*/
+body{
+    background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg) ;
+}
 
 .menu{
     background-color: burlywood;
