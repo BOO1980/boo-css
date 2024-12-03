@@ -2,7 +2,7 @@ h1, p, h2{
     text-align: center;
 }
 h1, h2{
-    font-family: Impact;
+    font-family: Impact, serif;
 }
 
 body{
