@@ -33,3 +33,7 @@ body{
     display: inline-block;
 }
 
+.established {
+    font-style: italic;
+}
+
