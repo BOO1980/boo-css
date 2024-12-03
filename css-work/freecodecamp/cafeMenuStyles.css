@@ -12,6 +12,7 @@ body{
     margin-left: center;
     margin-right: center;
     padding: 20px;
+    max-width: 500px;
 }
 
 .flavor, .dessert{
