@@ -3,7 +3,8 @@ h1, p, h2{
 }
 
 body{
-    background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg) ;
+    background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
 }
 
 .menu{
