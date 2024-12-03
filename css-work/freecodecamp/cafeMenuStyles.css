@@ -13,7 +13,7 @@ body{
     margin-right: center;
 }
 
-.flavor{
+.flavor, .dessert{
     text-align: left;
     width: 75%;
 }
