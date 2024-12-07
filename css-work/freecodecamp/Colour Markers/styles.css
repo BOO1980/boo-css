@@ -3,10 +3,10 @@ h1{
  }
 
 .marker{
-   background-color: red;
-   height: 25px;
    width: 200px;
-   margin: auto;
+   height: 25px;
+   background-color: red;
+   margin: 10px auto;
 }
 
 https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/step-13
