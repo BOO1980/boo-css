@@ -7,7 +7,7 @@ h1{
    height: 25px;
    margin: 10px auto;
 }
-
+/*a comment*/
 .red {
    background: linear-gradient(90deg, rgb(255,0,0));
  }
