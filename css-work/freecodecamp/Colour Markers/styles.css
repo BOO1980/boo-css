@@ -9,11 +9,11 @@ h1{
 }
 /*a comment*/
 .red {
-  background: linear-gradient(180deg, rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27))
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27))
 }
 
 .green {
-  background: linear-gradient(180deg, #55680D,  #71F53E,  #116C31)
+  background: linear-gradient(#55680D,  #71F53E,  #116C31)
 }
 
  .blue {
@@ -24,4 +24,3 @@ h1{
    background-color: rgb(255,255,255);
    padding-top: 10px 0;}
 
-https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/step-13
