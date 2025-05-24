@@ -1,5 +1,7 @@
 h1{
    text-align: center;
+
+   color: blue
  };
 
 .marker{
@@ -10,11 +12,11 @@ h1{
 
 /*a comment*/
 .red {
-  background: linear-gradient(180deg, rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  background: linear-gradient( rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
 }
 
 .green {
-  background: linear-gradient(180deg, #55680D, #71F53E, #116C31);
+  background: linear-gradient( #55680D, #71F53E, #116C31);
 }
 
 .blue {
