@@ -1,19 +1,19 @@
 h1{
    text-align: center;
- }
+ };
 
 .marker{
    width: 200px;
    height: 25px;
    margin: 10px auto;
-}
+};
 /*a comment*/
 .red {
   background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
 }
 
 .green {
-  background: linear-gradient(180deg, #55680D)
+  background: linear-gradient(180deg, #55680D, #71F53E);
 }
 
  .blue {
