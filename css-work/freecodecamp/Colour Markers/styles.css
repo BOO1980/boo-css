@@ -7,20 +7,22 @@ h1{
    height: 25px;
    margin: 10px auto;
 };
+
 /*a comment*/
 .red {
   background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
 }
 
 .green {
-  background: linear-gradient(180deg, #55680D, #71F53E, #116c31);
+  background: linear-gradient(180deg, #55680D, #71F53E, #116C31);
 }
 
- .blue {
+.blue {
   background-color: hsl(240, 100%, 50%);
 }
 
 .container{
    background-color: rgb(255,255,255);
-   padding-top: 10px 0;}
+   padding-top: 10px 0;
+}
 
