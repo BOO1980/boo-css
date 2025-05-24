@@ -1,26 +1,19 @@
 h1{
    text-align: center;
-
-   color: blue
- };
+ }
 
 .marker{
    width: 200px;
    height: 25px;
    margin: 10px auto;
-};
-
+}
 /*a comment*/
 .red {
-  background: linear-gradient( rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
 }
 
 .green {
-  background: linear-gradient(180deg, #55680D)
-}
-
-.green {
-  background: linear-gradient(180deg, #55680D)
+  background: linear-gradient(180deg, #55680D,  #71F53E)
 }
 
  .blue {
@@ -29,6 +22,6 @@ h1{
 
 .container{
    background-color: rgb(255,255,255);
-   padding-top: 10px 0;
-}
+   padding-top: 10px 0;}
 
+https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/step-13
