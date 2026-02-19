@@ -2,36 +2,64 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../prettierrc.json" />
+    <link rel="stylesheet" href="../assets/style.css" />
     <title>CSS: Meta Viewport</title>
 </head>
 
-<body>
-    <main>
-        <h1>CSS: Meta Viewport</h1>
+<body data-page="css-meta-viewport">
+    <header class="topic-bar">
+        <div class="topic-bar__inner">
+            <div class="topic-bar__title">
+                <h1>CSS: Meta Viewport</h1>
+            </div>
+            <nav class="quick-links" aria-label="On this page">
+                <a href="#overview">Overview</a>
+                <a href="#keywords">Keywords</a>
+                <a href="#codekeywords">Code Keywords</a>
+                <a href="#codeexamples">Code Examples</a>
+                <a href="#questions">Questions</a>
+                <a href="#resources">Resources</a>
+                <a href="#todo">TODO</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="sidebar-mount"></div>
+
+
+    <main class="content">
+
         <section id="overview">
             <h2>Overview</h2>
             <ul>
                 <li>The Meta viewport element is a crucial component in responsive web design.</li>
-                <li>It's a special HTML meta element that gives the browser instructions on how to control the page's
+                <li>It's a special HTML meta element that gives the browser instructions on how to control the
+                    page's
                     dimension and scaling on different devices, particularly on mobile phones and tablets. </li>
                 <li>It helps ensure that web pages render well on a variety of devices and screen sizes.</li>
                 <li>The element is typically placed in the head section of your HTML document.</li>
-                <li>The "width=device-width" part. Tells the browser to set the width of the page to match the screen
+                <li>The "width=device-width" part. Tells the browser to set the width of the page to match the
+                    screen
                     width of the device. This is essential for creating responsive layouts that adapt to different
                     screen sizes. </li>
                 <li>The initial-scale=1.0 sets the initial zoom level when the page is first loaded. A value of 1.0
                     means that the page is displayed at 100% zoom without any scaling. </li>
-                <li>By using the meta viewport elements, you're ensuring that your web pages are displayed properly on
+                <li>By using the meta viewport elements, you're ensuring that your web pages are displayed properly
+                    on
                     mobile devices. </li>
-                <li>Without it, mobile browsers will typically render the page at a desktop screen width and then scale
+                <li>Without it, mobile browsers will typically render the page at a desktop screen width and then
+                    scale
                     it down, which could result in poor user experience with tiny, hard to read text. </li>
-                <li>The meta viewport element also allows you to control whether users can zoom in and out of your web
+                <li>The meta viewport element also allows you to control whether users can zoom in and out of your
+                    web
                     pages. </li>
                 <li>While it's possible to disable zoom in with the user-scalable=no attribute, it is generally
                     recommended to avoid this for accessibility reasons. </li>
-                <li>It is best practice to design your website to be responsive and readable at different zoom levels,
+                <li>It is best practice to design your website to be responsive and readable at different zoom
+                    levels,
                     ensuring that all users can comfortably access the content. </li>
                 <li>The meta viewport element plays a crucial role in creating mobile friendly websites. </li>
                 <li>It ensures that your carefully crafted responsive designs are displayed as intended on various
@@ -67,12 +95,12 @@
 
             </ul>
         </section>
-
         <section id="questions">
             <h2>Questions</h2>
             <ul>
                 <li>What is the purpose of the meta viewport element in responsive web design?</li>
-                <li>How does the "width=device-width" attribute affect the rendering of a web page on different devices?
+                <li>How does the "width=device-width" attribute affect the rendering of a web page on different
+                    devices?
                 </li>
                 <li>What does the "initial-scale=1.0" attribute do in the context of the meta viewport element?</li>
                 <li>Why is it generally recommended to avoid disabling zoom with user-scalable=no for accessibility
@@ -88,7 +116,23 @@
                         freeCodeCamp: What Is the Meta Viewport Element Used For?</a></li>
             </ul>
         </section>
+        <section id="todo">
+            <h2>TODO</h2>
+            <ul>
+                <li>Review and update notes regularly</li>
+                <li>Organize notes by topic</li>
+                <li>Add more code examples</li>
+                <li>Include links to resources</li>
+                <li>Clean up the code using ChatGPT suggestions</li>
+            </ul>
+        </section>
+
+
     </main>
+    <!-- Sidebar JS -->
+    <script src="../assets/layout.js"></script>
+    <script src="../assets/script.js"></script>
+    <script src="../assets/sidebar.js"></script>
 </body>
 
 </html>

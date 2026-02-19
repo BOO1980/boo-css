@@ -30,7 +30,7 @@
         <summary>Notes</summary>
         <nav class="nav-list" aria-label="Notes">
           <a href="${href('css-notes/css-overview.html')}" data-page="overview">Main Overview</a>
-          <a href="${href('css-notes/css-basic-elements.html')}" data-page="basic-elements">Basic Elements</a>
+          <a href="${href('css-notes/css-meta-viewport.html')}" data-page="meta-viewport">Meta Viewport</a>
           <a href="${href('css-notes/css-attributes.html')}" data-page="attributes">Attributes</a>
           <a href="${href('css-notes/css-headers.html')}" data-page="headers">Headers</a>
           <a href="${href('css-notes/css-html5-elements.html')}" data-page="html5-elements">HTML5 Elements</a>

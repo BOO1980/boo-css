@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
 
 :root {
-  --bg: #f7f7fc;
-  --text: #333;
+  --bg: #f1f5f2;
+  --text: #1b2b23;
 
-  --accent-1: #ff6b6b;
-  --accent-2: #ff922b;
+  --accent-1: #2f855a;
+  --accent-2: #d4a373;
 
   --card: #ffffff;
-  --card-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
-  --code-bg: #ffe8cc;
+  --card-shadow: 0 6px 20px rgba(34, 84, 61, 0.12);
+  --code-bg: #e6f4ea;
 
-  --sidebar-bg: #111;
-  --sidebar-text: #fff;
+  --sidebar-bg: #1c4532;
+  --sidebar-text: #f0fff4;
 
   --sidebar-width: 270px;
   --content-max: 900px;
 
-  /* Adjust if your quick links wrap */
   --topic-bar-height: 160px;
 
   --radius-lg: 20px;
   --radius-md: 16px;
 }
+
 
 * {
   box-sizing: border-box;
