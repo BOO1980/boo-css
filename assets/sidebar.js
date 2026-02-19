@@ -31,29 +31,17 @@
         <nav class="nav-list" aria-label="Notes">
           <a href="${href('css-notes/css-overview.html')}" data-page="overview">Main Overview</a>
           <a href="${href('css-notes/css-meta-viewport.html')}" data-page="meta-viewport">Meta Viewport</a>
-          <a href="${href('css-notes/css-attributes.html')}" data-page="attributes">Attributes</a>
-          <a href="${href('css-notes/css-headers.html')}" data-page="headers">Headers</a>
-          <a href="${href('css-notes/css-html5-elements.html')}" data-page="html5-elements">HTML5 Elements</a>
-          <a href="${href('css-notes/css-boilerplate.html')}" data-page="boilerplate">Boilerplate</a>
-          <a href="${href('css-notes/css-meta-element.html')}" data-page="meta-element">Meta Element</a> 
-          <a href="${href('css-notes/css-section.html')}" data-page="section">Section Element</a>
-          <a href="${href('css-notes/css-images.html')}" data-page="images">Images</a>
-          <a href="${href('css-notes/css-anchor.html')}" data-page="anchor">Anchor</a>
-          <a href="${href('css-notes/css-lists.html')}" data-page="lists">Lists</a>
-          <a href="${href('css-notes/css-emphasis-and-idiomatic-elements.html')}" data-page="emphasis-and-idiomatic-elements">Emphasis and Idiomatic Elements</a>
+          <a href="${href('css-notes/css-default-browser-styles.html')}" data-page="default-browser-styles">Default Browser Styles</a>  
         </nav>
       </details>
       <details class="nav-group">
         <summary>Lab</summary>
         <nav class="nav-list" aria-label="Labs">
-          <a href="${href('html-work/freecodecamp/Lab-Camperbot/index.html')}" data-page="camperbot-lab">Camperbot</a>
-          <a href="${href('html-work/freecodecamp/Lab-Pet-Adoption-Page/index.html')}" data-page="pet-adoption-lab">Pet Adoption</a>
         </nav>
       </details>
       <details class="nav-group">
         <summary>Workshops</summary>
         <nav class="nav-list" aria-label="Workshops">
-          <a href="${href('html-work/freecodecamp/Build-A-Cat-Photo-App/index.html')}" data-page="cat-photo-app">Cat Photo App</a>
         </nav>
       </details>
     </aside>
