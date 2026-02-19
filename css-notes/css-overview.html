@@ -2,15 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/style.css" />
     <title>CSS Overview</title>
 </head>
 
-<body>
-    <main>
-        <h1>CSS Overview</h1>
-        <section>
+<body data-page="overview">
+    <header class="topic-bar">
+        <div class="topic-bar__title">
+            <h1>CSS Main Overview</h1>
+        </div>
+
+        <nav class="quick-links" aria-label="On this page">
+            <a href="#overview">Overview</a>
+            <a href="#keywords">Keywords</a>
+            <a href="#codekeywords">Code Keywords</a>
+            <a href="#codeexamples">Code Examples</a>
+            <a href="#questions">Questions</a>
+            <a href="#resources">Resources</a>
+            <a href="#todo">TODO</a>
+        </nav>
+    </header>
+    <div id="sidebar-mount"></div>
+    <main class="content">
+        <section id="overview">
             <h2>Overview of CSS</h2>
             <ul>
                 <li>CSS, which stands for Cascading Style Sheets, is a crucial component of modern web development</li>
@@ -88,7 +104,7 @@
 
             </ul>
         </section>
-        <section>
+        <section id="keywords">
             <h2>Keywords</h2>
             <ul>
                 <li>Selectors</li>
@@ -112,7 +128,7 @@
 
             </ul>
         </section>
-        <section>
+        <section id="codekeywords">
             <h2>Code Keywords</h2>
             <ul>
                 <li><strong>Selector</strong>: The HTML element you want to style (e.g., h1, p, .class, #id)</li>
@@ -136,7 +152,7 @@
                     screen sizes and devices.</li>
             </ul>
         </section>
-        <section>
+        <section id="codeexamples">
             <h2>Code examples</h2>
             <ul>
                 <li>h1 { color: blue; }</li>
@@ -159,7 +175,7 @@
 
             </ul>
         </section>
-        <section>
+        <section id="questions">
             <h2>Questions</h2>
             <ul>
                 <li>What does CSS stand for?</li>
@@ -191,7 +207,7 @@
                 <li>Why is external CSS preferred in larger projects? </li>
             </ul>
         </section>
-        <section>
+        <section id="resources">
             <h2>Resources</h2>
             <ul>
                 <li><a target="_blank" rel="noopener noreferrer"
@@ -244,7 +260,20 @@
                         freeCodeCamp:Learn Basic CSS by Building a Cafe Menu - Step 38</a></li>
                 </li>
             </ul>
+        </section>
+        <section id="todo">
+            <h2>TODO</h2>
+            <ul>
+                <li>Review and expand code examples for each keyword.</li>
+                <li>Clean up the code using ChatGPT suggestions</li>
+                <li>Add more questions for self-assessment.</li>
+                <li>Include additional resources for further learning.</li>
+                <li>Organize keywords into categories for better clarity.</li>
     </main>
+    <!-- Sidebar JS -->
+    <script src="../assets/layout.js"></script>
+    <script src="../assets/script.js"></script>
+    <script src="../assets/sidebar.js"></script>
 </body>
 
 </html>

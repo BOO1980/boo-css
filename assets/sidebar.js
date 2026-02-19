@@ -29,18 +29,18 @@
       <details class="nav-group" open>
         <summary>Notes</summary>
         <nav class="nav-list" aria-label="Notes">
-          <a href="${href('html-notes/html-overview.html')}" data-page="overview">Main Overview</a>
-          <a href="${href('html-notes/html-basic-elements.html')}" data-page="basic-elements">Basic Elements</a>
-          <a href="${href('html-notes/html-attributes.html')}" data-page="attributes">Attributes</a>
-          <a href="${href('html-notes/html-headers.html')}" data-page="headers">Headers</a>
-          <a href="${href('html-notes/html-html5-elements.html')}" data-page="html5-elements">HTML5 Elements</a>
-          <a href="${href('html-notes/html-boilerplate.html')}" data-page="boilerplate">Boilerplate</a>
-          <a href="${href('html-notes/html-meta-element.html')}" data-page="meta-element">Meta Element</a> 
-          <a href="${href('html-notes/html-section.html')}" data-page="section">Section Element</a>
-          <a href="${href('html-notes/html-images.html')}" data-page="images">Images</a>
-          <a href="${href('html-notes/html-anchor.html')}" data-page="anchor">Anchor</a>
-          <a href="${href('html-notes/html-lists.html')}" data-page="lists">Lists</a>
-          <a href="${href('html-notes/html-emphasis-and-idiomatic-elements.html')}" data-page="emphasis-and-idiomatic-elements">Emphasis and Idiomatic Elements</a>
+          <a href="${href('css-notes/css-overview.html')}" data-page="overview">Main Overview</a>
+          <a href="${href('css-notes/css-basic-elements.html')}" data-page="basic-elements">Basic Elements</a>
+          <a href="${href('css-notes/css-attributes.html')}" data-page="attributes">Attributes</a>
+          <a href="${href('css-notes/css-headers.html')}" data-page="headers">Headers</a>
+          <a href="${href('css-notes/css-html5-elements.html')}" data-page="html5-elements">HTML5 Elements</a>
+          <a href="${href('css-notes/css-boilerplate.html')}" data-page="boilerplate">Boilerplate</a>
+          <a href="${href('css-notes/css-meta-element.html')}" data-page="meta-element">Meta Element</a> 
+          <a href="${href('css-notes/css-section.html')}" data-page="section">Section Element</a>
+          <a href="${href('css-notes/css-images.html')}" data-page="images">Images</a>
+          <a href="${href('css-notes/css-anchor.html')}" data-page="anchor">Anchor</a>
+          <a href="${href('css-notes/css-lists.html')}" data-page="lists">Lists</a>
+          <a href="${href('css-notes/css-emphasis-and-idiomatic-elements.html')}" data-page="emphasis-and-idiomatic-elements">Emphasis and Idiomatic Elements</a>
         </nav>
       </details>
       <details class="nav-group">
