@@ -264,6 +264,82 @@ pre code {
   z-index: 100;
 }
 
+/* ===== Progress Legend ===== */
+
+.status-legend {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid var(--border, #ccc);
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.legend-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+}
+
+.legend-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.track-item {
+  padding: 1.25rem 1.75rem;
+  border-left: 8px solid;
+  border-radius: 10px;
+  background: white;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+.track-item::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  width: 12px;
+  background: white; /* matches your card */
+}
+
+/* Status colors */
+
+.track-item[data-status='complete'] {
+  border-left-color: #2ecc71;
+}
+
+.track-item[data-status='in-progress'] {
+  border-left-color: #f39c12;
+}
+
+.track-item[data-status='not-started'] {
+  border-left-color: #e74c3c;
+}
+
+
+.legend-dot.complete {
+  background: #2ecc71;
+}
+
+.legend-dot.in-progress {
+  background: #f39c12;
+}
+
+.legend-dot.not-started {
+  background: #e74c3c;
+}
+
+
 /* =========================
    MOBILE
 ========================= */

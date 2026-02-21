@@ -4,20 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../prettierrc.json" />
     <link rel="stylesheet" href="../assets/style.css" />
-    <title>Learning Tracker</title>
+    <title>CSS: Learning Tracker</title>
 </head>
 
 <body data-page="tracking">
     <header class="topic-bar">
         <div class="topic-bar__inner">
             <div class="topic-bar__title">
-                <h1>Tracking</h1>
-                <div class="meta">
-                    <span class="pill">One page, all progress</span>
-                    <span class="pill">Links open in a new tab</span>
-                </div>
+                <h1>CSS: Learning Tracker</h1>
             </div>
 
             <nav class="quick-links" aria-label="On this page">
@@ -32,6 +27,14 @@
     <div id="sidebar-mount"></div>
 
     <main class="content">
+        <section class="card" aria-label="Progress legend">
+            <h2>Progress Legend</h2>
+            <ul class="legend-list">
+                <li><span class="legend-dot complete"></span> Complete</li>
+                <li><span class="legend-dot in-progress"></span> In Progress</li>
+                <li><span class="legend-dot not-started"></span> Not Started</li>
+            </ul>
+        </section>
         <section id="overview" class="card" aria-labelledby="overview-title">
             <h2 id="overview-title">Overview</h2>
             <p class="muted">
@@ -42,7 +45,8 @@
         </section>
         <section id="fcc" class="card" aria-labelledby="fcc-title">
             <h2 id="fcc-title">freeCodeCamp</h2>
-            <section>
+            <!--article: What is CSS-->
+            <article class="track-item" data-status="in-progress">
                 <h2>What is CSS? [5/9] </h2>
                 <ul>
                     <li><a target="_blank" rel="noopener noreferrer"
@@ -61,8 +65,8 @@
                             href="https://www.freecodecamp.org/learn/responsive-web-design-v9/lecture-what-is-css/what-are-inline-internal-and-external-css">
                             What Are Inline, Internal, and External CSS?</a></li>
                 </ul>
-            </section>
-            <section>
+            </article>
+            <article class="track-item" data-status="not-started">
                 <h2>Learn basic css by building a cafe menu</h2>
                 <ul>
                     <li>
@@ -764,8 +768,8 @@
                             <li>header</li>
                     </li>
                 </ul>
-            </section>
-            <section>
+            </article>
+            <article>
                 <h2>[4/94]Learn CSS Colours by building a set of coloured markers</h2>
                 <ul>
                     <li>
@@ -798,7 +802,7 @@
                             <li>charset</li>
                         </ul>
                 </ul>
-            </section>
+            </article>
         </section>
         <section id="todo" class="card" aria-labelledby="todo-title">
             <h2 id="todo-title">TODO</h2>
@@ -807,11 +811,36 @@
                 <li>Add more code examples</li>
                 <li>Include links to resources</li>
                 <li>Review and update notes regularly</li>
+                <li>Check out: <a href="http://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"
+                        rel="noopener noreferrer">MDN CSS Documentation</a></li>
+                <li>Check out: <a href="https://www.freecodecamp.org/news/tag/css/" target="_blank"
+                        rel="noopener noreferrer">FreeCodeCamp CSS Articles</a></li>
+                <li>Check out: <a href="https://flexboxfroggy.com/" target="_blank" rel="noopener noreferrer">Flexbox
+                        Froggy</a></li>
+                <li>Check out: <a href="https://cssgridgarden.com/" target="_blank" rel="noopener noreferrer">CSS Grid
+                        Garden</a></li>
+                <li>Check out: <a href="https://www.youtube.com/kevinpowell" target="_blank"
+                        rel="noopener noreferrer">Kevin Powell's YouTube Channel</a></li>
+                <li>Check out: <a href="https://www.traversymedia.com/" target="_blank"
+                        rel="noopener noreferrer">Traversy Media</a></li>
+                <li>Check out: <a href="https://www.youtube.com/c/Academind" target="_blank"
+                        rel="noopener noreferrer">Academind</a></li>
+                <li>Project idea: Landing Page Clone</li>
+                <li>Project idea: Portfolio Website</li>
+                <li>Project idea: Blog Template</li>
+                <li>Project idea: E-commerce Store</li>
+                <li>Project idea: Social Media Platform</li>
+                <li>Project idea: Online Learning Platform</li>
+                <li>Project idea: Pricing Table</li>
+                <li>Project idea: Product Card</li>
+                <li>Project idea: Responsive Navigation Menu</li>
+                <li>Project idea: Dashboard Layout</li>
+                <li>Check Out: https://www.frontendmentor.io/</li>
+
             </ul>
         </section>
     </main>
 
-    <script src="../assets/layout.js"></script>
     <script src="../assets/script.js"></script>
     <script src="../assets/sidebar.js"></script>
 </body>
