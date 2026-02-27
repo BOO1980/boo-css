@@ -30,6 +30,13 @@
   --code-attr: #7c3aed;
   --code-value: #b45309;
 
+    --code-selector: hsl(29, 90%, 49%);
+  --code-property: hsl(197, 80%, 16%);
+  --code-css-value: #a3e635;
+  --code-brace: #c792ea;
+  --code-class: #ffd166;
+  --code-id: #ef476f;
+
 
   /* Sidebar */
   --sidebar-bg: #1c4532;
@@ -291,12 +298,20 @@ code {
   padding: 2px 6px;
   border-radius: 6px;
   font-family: Consolas, monospace;
+    color: var(--code-text);
 }
 
 pre code {
   display: block;
   padding: 12px;
 }
+
+.code-selector { color: var(--code-selector); }
+.code-property { color: var(--code-property); }
+.code-value    { color: var(--code-value); }
+.code-brace    { color: var(--code-brace); }
+.code-class    { color: var(--code-class); }
+.code-id       { color: var(--code-id); }
 
 .skip-link {
   position: absolute;
