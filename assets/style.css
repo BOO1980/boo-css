@@ -3,25 +3,49 @@
 /* ========== CSS VARIABLES / THEME ========== */
 :root {
   --bg: #f1f5f2;
-  --text: #1b2b23;
+  --text: #333;
+  /* Layout */
+  --topic-bar-height: 110px;
+  --radius-md: 14px;
+
+    /* Surfaces */
+  --border: rgba(17, 24, 39, 0.12);
+  --card: #ffffff;
+  --shadow: 0 10px 28px rgba(17, 24, 39, 0.08);
+  --card-shadow: 0 6px 20px rgba(34, 84, 61, 0.12);
 
   --accent-1: #2f855a;
   --accent-2: #d4a373;
+  --accent-3: #334155;
+  --accent-soft: #fff2e8;
+  --muted: #64748b;
 
-  --card: #ffffff;
-  --card-shadow: 0 6px 20px rgba(34, 84, 61, 0.12);
-  --code-bg: #e6f4ea;
+  /* Fonts */
+  --titles-font-colour: #fff2e8;
 
+
+    /* Code */
+  --code-bg: #fff2e8;
+  --code-border: rgba(17, 24, 39, 0.1);
+  --code-tag: #2563eb;
+  --code-attr: #7c3aed;
+  --code-value: #b45309;
+
+
+  /* Sidebar */
   --sidebar-bg: #1c4532;
-  --sidebar-text: #f0fff4;
+  --sidebar-text: #fff2e8;
 
-  --sidebar-width: 270px;
-  --content-max: 900px;
-
-  --topic-bar-height: 110px;
+  --sidebar-width: 20rem;
+  --content-max: 98rem;
 
   --radius-lg: 20px;
-  --radius-md: 16px;
+
+    /* Status */
+  --status-complete: #16a34a;
+  --status-progress: #f59e0b;
+  --status-not: #dc2626;
+
 }
 
 
