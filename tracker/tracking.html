@@ -4,17 +4,22 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="A dashboard to track your CSS learning progress, with links to freeCodeCamp lessons and older notes." />
     <link rel="stylesheet" href="../assets/style.css" />
     <title>CSS: Learning Tracker</title>
 </head>
 
 <body data-page="tracking">
+    <a class="skip-link" href="#overview">Skip to content</a>
     <header class="topic-bar">
         <div class="topic-bar__inner">
             <div class="topic-bar__title">
+                <button class="nav-toggle" type="button" aria-controls="sidebar-mount" aria-expanded="false">
+                    ☰ <span class="sr-only">Menu</span>
+                </button>
                 <h1>CSS: Learning Tracker</h1>
             </div>
-
             <nav class="quick-links" aria-label="On this page">
                 <a href="#overview">Overview</a>
                 <a href="#fcc">freeCodeCamp</a>
@@ -843,6 +848,7 @@
 
     <script src="../assets/script.js"></script>
     <script src="../assets/sidebar.js"></script>
+    <script src="../assets/nav-toggle.js"></script>
 </body>
 
 </html>

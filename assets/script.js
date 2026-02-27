@@ -44,4 +44,13 @@ function setupQuickLinksHighlight() {
   if (sections[0]) {
     setActive(sections[0].id);
   }
+
+  function setTopicBarHeight() {
+    const bar = document.querySelector('.topic-bar');
+    if (!bar) return;
+    document.documentElement.style.setProperty('--topic-bar-height', `${bar.offsetHeight}px`);
+  }
+
+  window.addEventListener('load', setTopicBarHeight);
+  window.addEventListener('resize', setTopicBarHeight);
 }
