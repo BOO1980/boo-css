@@ -4,21 +4,26 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Comprehensive overview of CSS (Cascading Style Sheets), covering its purpose, key concepts, types of CSS, and its role in responsive web design." />
     <link rel="stylesheet" href="../assets/style.css" />
     <title>CSS: Overview</title>
 </head>
 
 <body data-page="overview">
+    <a class="skip-link" href="#overview">Skip to content</a>
     <header class="topic-bar">
         <div class="topic-bar__title">
+            <button class="nav-toggle" type="button" aria-controls="sidebar-mount" aria-expanded="false">
+                ☰ <span class="sr-only">Menu</span>
+            </button>
             <h1>CSS Main Overview</h1>
         </div>
-
         <nav class="quick-links" aria-label="On this page">
             <a href="#overview">Overview</a>
             <a href="#keywords">Keywords</a>
-            <a href="#codekeywords">Code Keywords</a>
-            <a href="#codeexamples">Code Examples</a>
+            <a href="#code-keywords">Code Keywords</a>
+            <a href="#code-examples">Code Examples</a>
             <a href="#questions">Questions</a>
             <a href="#resources">Resources</a>
             <a href="#todo">TODO</a>
@@ -26,6 +31,7 @@
     </header>
     <div id="sidebar-mount"></div>
     <main class="content">
+        <!--Overview-->
         <section id="overview">
             <h2>Overview</h2>
             <ul>
@@ -104,6 +110,7 @@
 
             </ul>
         </section>
+        <!--Keywords-->
         <section id="keywords">
             <h2>Keywords</h2>
             <ul>
@@ -128,7 +135,8 @@
 
             </ul>
         </section>
-        <section id="codekeywords">
+        <!--Code Keywords-->
+        <section id="code-keywords">
             <h2>Code Keywords</h2>
             <ul>
                 <li><strong>Selector</strong>: The HTML element you want to style (e.g., h1, p, .class, #id)</li>
@@ -152,32 +160,50 @@
                     screen sizes and devices.</li>
             </ul>
         </section>
-        <section id="codeexamples">
+        <!--Code Examples-->
+        <section id="code-examples">
             <h2>Code examples</h2>
-            <ul>
-                <li>h1 { color: blue; }</li>
-                <li>.class { font-size: 16px; }</li>
-                <li>#id { margin: 10px; }</li>
-                <li>head { background-color: lightgray; }</li>
-                <li>meta { width: device-width; }</li>
-                <li>div { margin: 0 auto; }</li>
-                <li>body { font-family: Arial, sans-serif; }</li>
-                <li>span { display: inline; }</li>
-                <li>p { padding: 5px; }</li>
-                <li>h2 { margin: 20px 0; }</li>
-                <li>h3 { font-size: 18px; }</li>
-                <li>img { display: inline-block; }</li>
-                <li>div { display: block; }</li>
-                <li>span { display: inline; }</li>
-                <li>button { display: inline-block; }</li>
-
-
-
-            </ul>
+            <p class="code-note">here the h1 text will changed to the colour blue </p>
+            <pre><code><span class="code-selector">h1</span> <span class="code-brace">{</span><span class="code-property">color</span>: <span class="code-value">blue</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the class text will changed to the font size 16px </p>
+            <pre><code><span class="code-selector">.class</span> <span class="code-brace">{</span><span class="code-property">font-size</span>: <span class="code-value">16px</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the id text will changed to the margin 10px </p>
+            <pre><code><span class="code-selector">#id</span> <span class="code-brace">{</span><span class="code-property">margin</span>: <span class="code-value">10px</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the div text will changed to the width 100% </p>
+            <pre><code><span class="code-selector">div</span> <span class="code-brace">{</span><span class="code-property">width</span>: <span class="code-value">100%</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the span text will changed to the height 50px </p>
+            <pre><code><span class="code-selector">span</span> <span class="code-brace">{</span><span class="code-property">height</span>: <span class="code-value">50px</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the head text will changed to the background color lightgray </p>
+            <pre><code><span class="code-selector">head</span> <span class="code-brace">{</span><span class="code-property">background-color</span>: <span class="code-value">lightgray</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the meta text will changed to the width device-width </p>
+            <pre><code><span class="code-selector">meta</span> <span class="code-brace">{</span><span class="code-property">width</span>: <span class="code-value">device-width</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the div text will changed to the margin 0 auto </p>
+            <pre><code><span class="code-selector">div</span> <span class="code-brace">{</span><span class="code-property">margin</span>: <span class="code-value">0 auto</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the button text will changed to the display inline-block </p>
+            <pre><code><span class="code-selector">button</span> <span class="code-brace">{</span><span class="code-property">display</span>: <span class="code-value">inline-block</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the body text will changed to the font family Arial, sans-serif </p>
+            <pre><code><span class="code-selector">body</span> <span class="code-brace">{</span><span class="code-property">font-family</span>: <span class="code-value">Arial, sans-serif</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the span text will changed to the display inline </p>
+            <pre><code><span class="code-selector">span</span> <span class="code-brace">{</span><span class="code-property">display</span>: <span class="code-value">inline</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the p text will changed to the padding 5px </p>
+            <pre><code><span class="code-selector">p</span> <span class="code-brace">{</span><span class="code-property">padding</span>: <span class="code-value">5px</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the p text will changed to the padding 5px </p>
+            <pre><code><span class="code-selector">h2</span> <span class="code-brace">{</span><span class="code-property">margin</span>: <span class="code-value">20px 0</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the h2 text will changed to the margin 20px 0 </p>
+            <pre><code><span class="code-selector">h3</span> <span class="code-brace">{</span><span class="code-property">font-size</span>: <span class="code-value">18px</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the img text will changed to the display inline-block </p>
+            <pre><code><span class="code-selector">img</span> <span class="code-brace">{</span><span class="code-property">display</span>: <span class="code-value">inline-block</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the div text will changed to the display block </p>
+            <pre><code><span class="code-selector">div</span> <span class="code-brace">{</span><span class="code-property">display</span>: <span class="code-value">block</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the span text will changed to the display inline </p>
+            <pre><code><span class="code-selector">span</span> <span class="code-brace">{</span><span class="code-property">display</span>: <span class="code-value">inline</span>;<span class="code-brace">}</span></code></pre>
+            <p class="code-note">here the button text will changed to the display inline-block </p>
+            <pre><code><span class="code-selector">button</span> <span class="code-brace">{</span><span class="code-property">display</span>: <span class="code-value">inline-block</span>;<span class="code-brace">}</span></code></pre>
         </section>
+        <!--Questions-->
         <section id="questions">
             <h2>Questions</h2>
-            <ul>
+            <ul class="questions-list">
                 <li>What does CSS stand for?</li>
                 <li>Which CSS rule correctly changes the text color of all paragraph elements to blue?</li>
                 <li>What is the primary role of CSS in web development?</li>
@@ -207,6 +233,7 @@
                 <li>Why is external CSS preferred in larger projects? </li>
             </ul>
         </section>
+        <!--Resources-->
         <section id="resources">
             <h2>Resources</h2>
             <ul>
@@ -214,17 +241,17 @@
                         href="https://www.freecodecamp.org/learn/responsive-web-design-v9/lecture-what-is-css/what-is-css">
                         freeCodeCamp: What Is CSS, and What Is Its Role on the Web?</a></li>
                 <li><a target="_blank" rel="noopener noreferrer"
-                        href="https://www.freecodecamp.org/learn/responsive-web-design-v9/lecture-what-is-css/what-is-the-basic-anatomy-of-a-css-rule">
+                        href="https://www.freecodecamp.org/learn/responsive-web-design-v9/lecture-what-is-css/what-is-the-basic-anatomy-of-a-code-rule">
                         freeCodeCamp: What Is the Basic Anatomy of a CSS Rule?</a></li>
                 <li><a target="_blank" rel="noopener noreferrer"
                         href="https://www.freecodecamp.org/learn/responsive-web-design-v9/lecture-what-is-css/what-are-inline-internal-and-external-css">
                         freeCodeCamp: What Are Inline, Internal, and External CSS?</a></li>
                 <li><a target="_blank" rel="noopener noreferrer"
-                        href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-1">
+                        href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-code-by-building-a-cafe-menu/step-1">
                         freeCodeCamp:Learn Basic CSS by Building a Cafe Menu - Step 1</a></li>
 
                 <li><a target="_blank" rel="noopener noreferrer"
-                        href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-10">
+                        href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-code-by-building-a-cafe-menu/step-10">
                         freeCodeCamp:Learn Basic CSS by Building a Cafe Menu - Step 10</a></li>
                 </li>
                 <li><a target="_blank" rel="noopener noreferrer"
@@ -261,6 +288,7 @@
                 </li>
             </ul>
         </section>
+        <!--TODO-->
         <section id="todo">
             <h2>TODO</h2>
             <ul>
@@ -272,10 +300,9 @@
             </ul>
         </section>
     </main>
-    <!-- Sidebar JS -->
-    <script src="../assets/layout.js"></script>
     <script src="../assets/script.js"></script>
     <script src="../assets/sidebar.js"></script>
+    <script src="../assets/nav-toggle.js"></script>
 </body>
 
 </html>

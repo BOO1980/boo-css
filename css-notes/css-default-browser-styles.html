@@ -4,23 +4,27 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="An overview of default browser styles in CSS, including how they affect the appearance of HTML elements and how to work with them in web design." />
     <link rel="stylesheet" href="../assets/style.css" />
     <title>CSS Default Browser Styles</title>
 </head>
 
 <body data-page="overview">
-
+    <a class="skip-link" href="#overview">Skip to content</a>
     <header class="topic-bar">
         <div class="topic-bar__title">
+            <button class="nav-toggle" type="button" aria-controls="sidebar-mount" aria-expanded="false">
+                ☰ <span class="sr-only">Menu</span>
+            </button>
             <h1>CSS: Default Browser Styles</h1>
-
         </div>
 
         <nav class="quick-links" aria-label="On this page">
             <a href="#overview">Overview</a>
             <a href="#keywords">Keywords</a>
-            <a href="#codekeywords">Code Keywords</a>
-            <a href="#codeexamples">Code Examples</a>
+            <a href="#code-keywords">Code Keywords</a>
+            <a href="#code-examples">Code Examples</a>
             <a href="#questions">Questions</a>
             <a href="#resources">Resources</a>
             <a href="#todo">TODO</a>
@@ -28,15 +32,15 @@
     </header>
     <div id="sidebar-mount"></div>
     <main class="content">
-
+        <!--Overview-->
         <section id="overview">
             <h2>Overview</h2>
             <ul>
                 <li>
                     When you start working with HTML and CSS, you'll notice that some styles are applied to your web
                     pages even before you write any CSS. These styles are called default browser styles. </li>
-                >li>Default browser styles provide basic formatting to ensure that HTML elements are displayed in a
-                readable way across all browsers. </li>
+                <li>Default browser styles provide basic formatting to ensure that HTML elements are displayed in a
+                    readable way across all browsers. </li>
                 <li>These styles can vary slightly from 1 browse to another, which is why it's important to understand
                     them when designing a consistent look for your website. </li>
 
@@ -55,6 +59,7 @@
                     bullets or numbers, depending on whether you're using an ordered or unordered list. </li>
             </ul>
         </section>
+        <!--Keywords-->
         <section id="keywords">
             <h2>Keywords</h2>
             <ul>
@@ -68,43 +73,54 @@
 
             </ul>
         </section>
-        <section id="codekeywords">
+
+        <!--Code Keywords-->
+        <section id="code-keywords">
             <h2>Code Keywords</h2>
-            <ul>
-                <li>&lt;h1&gt;</li>
-                <li>&lt;hr&gt;</li>
-                <li>&lt;blockquote&gt;</li>
-                <li>&lt;a&gt;</li>
-                <li>&lt;ul&gt;</li>
-                <li>&lt;ol&gt;</li>
-            </ul>
+            <p class="code-note">The <code>&lt;h1&gt;</code> element represents the highest level heading in HTML.</p>
+            <pre><code><span class="code-bracket">&lt;</span><span class="code-tag">h1</span><span class="code-bracket">&gt;</span></code></pre>
+            <p class="code-note">The <code>&lt;hr&gt;</code> element creates a horizontal rule, often used to separate
+                content.</p>
+            <pre><code><span class="code-bracket">&lt;</span><span class="code-tag">hr</span><span class="code-bracket">&gt;</span></code></pre>
+            <p class="code-note">The <code>&lt;blockquote&gt;</code> element is used to indicate a section of text that
+                is a quotation from another source.</p>
+            <pre><code><span class="code-bracket">&lt;</span><span class="code-tag">blockquote</span><span class="code-bracket">&gt;</span></code></pre>
+            <p class="code-note">The <code>&lt;a&gt;</code> element represents a hyperlink, which is used to link from
+                one page to another.</p>
+            <pre><code><span class="code-bracket">&lt;</span><span class="code-tag">a</span><span class="code-bracket">&gt;</span></code></pre>
+            <p class="code-note">The <code>&lt;ul&gt;</code> element represents an unordered list, which is a collection
+                of items that do not have a specific order.</p>
+            <pre><code><span class="code-bracket">&lt;</span><span class="code-tag">ul</span><span class="code-bracket">&gt;</span></code></pre>
+            <p class="code-note">The <code>&lt;ol&gt;</code> element represents an ordered list, which is a collection
+                of items that have a specific order.</p>
+            <pre><code><span class="code-bracket">&lt;</span><span class="code-tag">ol</span><span class="code-bracket">&gt;</span></code></pre>
+
+
         </section>
-        <section id="codeexamples">
+
+        <!--Code Examples-->
+        <section id="code-examples">
             <h2>Code Examples</h2>
+            <p class="code-note">This is an example of the browser's default styles for heading 1</p>
+            <h1>This is a heading 1</h1>
+            <p class="code-note">This is an example of the browser's default styles for a horizontal rule</p>
+            <hr>
+            <p class="code-note">This is an example of the browser's default styles for a block quote</p>
+            <blockquote>This is a block quote.</blockquote>
+            <p class="code-note">This is an example of the browser's default styles for an anchor tag</p>
+            <a href="https://www.example.com">This is a link</a>
+            <p class="code-note">This is an example of the browser's default styles for an unordered list</p>
             <ul>
-                <li>
-                    &lt;h1&gt;This is a Heading 1&lt;/h1&gt;
-                </li>
-                <li>
-                    &lt;hr&gt;
-                </li>
-                <li>
-                    &lt;blockquote&gt;This is a block quote.&lt;/blockquote&gt;
-                </li>
-                <li>
-                    &lt;a href="https://www.example.com"&gt;This is a link&lt;/a&gt;
-                </li>
-                <li>
-                    &lt;ul&gt;
-                    &lt;li&gt;Item 1&lt;/li&gt;
-                    &lt;li&gt;Item 2&lt;/li&gt;
-                    &lt;/ul&gt;
-                </li>
+                <li>Item 1</li>
+                <li>Item 2</li>
             </ul>
+
         </section>
+
+        <!--Questions-->
         <section id="questions">
             <h2>Questions</h2>
-            <ul>
+            <ul class="questions-list">
                 <li>What are default browser styles, and why do they exist?</li>
                 <li>What is the default style applied to headings tags H1H6 in most browsers? </li>
                 <li>What does the HR element typically look like by default in most browsers? </li>
@@ -126,6 +142,8 @@
                     important to consider them in your design process?</li>
             </ul>
         </section>
+
+        <!--Resources-->
         <section id="resources">
             <h2>Resources</h2>
             <ul>
@@ -134,6 +152,8 @@
                         freeCodeCamp: What Are Some Default Browser Styles Applied to HTML?</a></li>
             </ul>
         </section>
+
+        <!--TODO-->
         <section id="todo">
             <h2>TODO</h2>
             <ul>
@@ -149,11 +169,12 @@
                 <li>Clean up the code using ChatGPT suggestions</li>
                 </li>
             </ul>
+        </section>
     </main>
     <!-- Sidebar JS -->
-    <script src="../assets/layout.js"></script>
     <script src="../assets/script.js"></script>
     <script src="../assets/sidebar.js"></script>
+    <script src="../assets/nav-toggle.js"></script>
 </body>
 
 </html>

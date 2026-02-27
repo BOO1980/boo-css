@@ -4,33 +4,36 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../prettierrc.json" />
+    <meta name="description"
+        content="Notes on the CSS Meta Viewport element, including its purpose in responsive web design, key attributes, and best practices for mobile-friendly websites." />
     <link rel="stylesheet" href="../assets/style.css" />
     <title>CSS: Meta Viewport</title>
 </head>
 
 <body data-page="css-meta-viewport">
+    <a class="skip-link" href="#overview">Skip to content</a>
     <header class="topic-bar">
         <div class="topic-bar__inner">
             <div class="topic-bar__title">
+                <button class="nav-toggle" type="button" aria-controls="sidebar-mount" aria-expanded="false">
+                    ☰ <span class="sr-only">Menu</span>
+                </button>
                 <h1>CSS: Meta Viewport</h1>
             </div>
             <nav class="quick-links" aria-label="On this page">
                 <a href="#overview">Overview</a>
                 <a href="#keywords">Keywords</a>
-                <a href="#codekeywords">Code Keywords</a>
-                <a href="#codeexamples">Code Examples</a>
+                <a href="#code-keywords">Code Keywords</a>
+                <a href="#code-examples">Code Examples</a>
                 <a href="#questions">Questions</a>
                 <a href="#resources">Resources</a>
                 <a href="#todo">TODO</a>
             </nav>
         </div>
     </header>
-
     <div id="sidebar-mount"></div>
-
-
     <main class="content">
+        <!--Overview-->
         <section id="overview">
             <h2>Overview</h2>
             <ul>
@@ -66,6 +69,7 @@
 
             </ul>
         </section>
+        <!--Keywords-->
         <section id="keywords">
             <h2>Keywords</h2>
             <ul>
@@ -76,6 +80,7 @@
 
             </ul>
         </section>
+        <!--Code Keywords-->
         <section id="code-keywords">
             <h2>Code Keywords</h2>
             <ul>
@@ -85,18 +90,15 @@
 
             </ul>
         </section>
+        <!--Code Examples-->
         <section id="code-examples">
             <h2>Code Examples</h2>
-            <ul>
-                <li>
-                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-                </li>
-
-            </ul>
+            <pre><code><span class="code-bracket">&lt;</span><span class="code-tag">meta</span> <span class="code-attr">name</span>=<span class="code-value">"viewport"</span> <span class="code-attr">content</span>=<span class="code-value">"width=device-width, initial-scale=1.0"</span><span class="code-bracket">&gt;</span></code></pre>
         </section>
+        <!--Questions-->
         <section id="questions">
             <h2>Questions</h2>
-            <ul>
+            <ul class="questions-list">
                 <li>What is the purpose of the meta viewport element in responsive web design?</li>
                 <li>How does the "width=device-width" attribute affect the rendering of a web page on different
                     devices?
@@ -107,6 +109,7 @@
                 <li>How does the meta viewport element contribute to creating mobile-friendly websites?</li>
             </ul>
         </section>
+        <!--Resources-->
         <section id="resources">
             <h2>Resources</h2>
             <ul>
@@ -115,6 +118,7 @@
                         freeCodeCamp: What Is the Meta Viewport Element Used For?</a></li>
             </ul>
         </section>
+        <!--TODO-->
         <section id="todo">
             <h2>TODO</h2>
             <ul>
@@ -128,10 +132,9 @@
 
 
     </main>
-    <!-- Sidebar JS -->
-    <script src="../assets/layout.js"></script>
     <script src="../assets/script.js"></script>
     <script src="../assets/sidebar.js"></script>
+    <script src="../assets/nav-toggle.js"></script>
 </body>
 
 </html>
